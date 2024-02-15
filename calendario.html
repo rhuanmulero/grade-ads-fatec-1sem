@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALENDÁRIO</title>
+
+  <!--Css Linkado-->
+  <link rel="stylesheet" href="calendario.css">
+  <link rel="stylesheet" href="global.css">
+
+  <!--Google Fontes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+JP:wght@600&family=Protest+Strike&display=swap" rel="stylesheet">
+ 
+
+</head>
+<body>
+
+<!-- Botões 1 -->
+<center>
+    <button class="btnNotHome" id="home" ontouchstart="addHover(this)"> HOME </button>
+    <button class="btnNotHome" id="aulas" ontouchstart="addHover(this)"> AULAS </button>
+    <button class="btnNotHome" id="horario" ontouchstart="addHover(this)"> HORÁRIO </button>
+</center>
+
+<div id="fevereiro">
+<h1>FEVEREIRO - 2024</h1>
+<p>Provas, Atividades e Aulas do 1º Semestre</p>
+
+<div class="mes">
+<ul>
+    <li data-aulas="FÉRIAS :)"><time datetime="2024-02-01">1</time></li>
+    <li data-aulas="FÉRIAS :)"><time datetime="2024-02-02">2</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-03">3</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-04">4</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-05">5</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-06">6</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-07">7</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-08">8</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-09">9</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-10">10</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-11">11</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-12">12</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-13">13</time></li>
+	<li data-aulas="FÉRIAS :)"><time datetime="2024-02-14">14</time></li>
+
+    <li class="important" data-aulas="INÍCIO DAS AULAS, 07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-02-01">15 - Início das Aulas</time></li>
+
+    <li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-02-02">16</time></li>
+
+	<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-02-17">17</time></li>
+	<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-02-18">18</time></li>
+
+	<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-02-19">19</time></li>
+
+	<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-02-20">20</time></li>
+
+	<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-02-21">21</time></li>
+
+	<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-02-22">22</time></li>
+
+	<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-02-23">23</time></li>
+
+	<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-02-24">24</time></li>
+	<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-02-25">25</time></li>
+
+	<li class="important" data-aulas="PRIMEIRO DIA DO EXAME DE NIVELAMENTO DE OUTRO IDIOMA, 07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-02-26">26 - Primeiro Dia do Exame</time></li>
+
+	<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-02-27">27</time></li>
+
+	<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-02-28">28</time></li>
+
+    <li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-02-29">29</time></li>
+</ul>
+</div>
+</div>
+
+
+<div id="marco" style="display: none;">
+<h1>MARÇO - 2024</h1>
+<p>Provas, Atividades e Aulas do 1º Semestre</p>
+<div class="mes">
+    <ul>
+		<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-03-1">1</time></li>
+
+		<li class="important" data-aulas="ÚLTIMO DIA DO EXAME DE NIVELAMENTO DE OUTRO IDIOMA, FINAL DE SEMANA :)"><time datetime="2024-03-2">2 - Último Dia do Exame</time></li>
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-3">3</time></li>
+
+		<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-03-4">4</time></li>
+
+		<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-03-5">5</time></li>
+
+		<li class="school"  data-aulas=" 09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-03-6">6</time></li>
+
+
+		<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-03-7">7</time></li>
+
+		<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-03-8">8</time></li>
+
+
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-9">9</time></li>
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-10">10</time></li>
+
+		<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-03-11">11</time></li>
+
+
+		<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-03-12">12</time></li>
+
+		<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-03-13">13</time></li>
+
+
+    	<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-03-14">14</time></li>
+
+		<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-03-15">15</time></li>
+
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-16">16</time></li>
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-17">17</time></li>
+
+		<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-03-18">18</time></li>
+
+		<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-03-12">19</time></li>
+
+		<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-03-20">20</time></li>
+
+		<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-03-21">21</time></li>
+
+		<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-03-22">22</time></li>
+
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-23">23</time></li>
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-24">24</time></li>
+
+		<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-03-25">25</time></li>
+
+		<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-03-12">26</time></li>
+
+		<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-03-20">27</time></li>
+
+		<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-03-28">28</time></li>
+
+
+		<li data-aulas="EMENDA DE FERIADO :)"><time datetime="2024-03-29">29 - Paixão de Cristo</time></li>
+
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-23">30</time></li>
+		<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-24">31</time></li>
+
+    </ul>
+
+</div>
+</div>
+  
+
+<div id="abril" style="display: none;">
+    <h1>ABRIL - 2024</h1>
+    <p>Provas, Atividades e Aulas do 1º Semestre</p>
+    <div class="mes">
+        <ul>
+        
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-04-1">1</time></li>
+
+        	<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-04-2">2</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-04-3">3</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-04-4">4</time></li>
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-04-5">5</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-6">6</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-7">7</time></li>
+
+			<li class="important" data-aulas="PROVA DE ADMINISTRAÇÃO GERAL, 07:40-08:30 Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-04-8">8 - Prova</time></li>
+
+			<li class="important" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-04-9">9 - Prova</time></li>
+
+			<li class="important"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-04-10">10 - Prova</time></li>
+
+			<li class="important" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-04-11">11 - Prova</time></li>
+
+			<li class="important"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-04-12">12 - Prova</time></li>
+
+			<li class="important" data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-13">13 - Prova</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-14">14</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-04-15">15</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-04-16">16</time></li>
+
+			<li class="important"  data-aulas="PROVA DE ALGORITMOS E LÓGICA DE PROGRAMAÇÃO, 09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-04-17">17</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-04-11">18</time></li>
+
+			
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-04-19">19</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-20">20</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-21">21</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-04-22">22</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-04-23">23</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-04-24">24</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-04-25">25</time></li>
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-04-26">26</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-27">27</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-04-28">28</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-04-22">29</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-04-30">30</time></li>
+
+        </ul>
+    </div>
+</div>
+
+<div id="maio" style="display: none;">
+    <h1>MAIO - 2024</h1>
+    <p>Provas, Atividades e Aulas do 1º Semestre</p>
+    <div class="mes">
+        <ul>
+            <!-- Adicione os dias de abril aqui -->
+            <li data-aulas="FERIADO :)"><time datetime="2024-05-1">1 - Dia do Trabalho</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-05-2">2</time></li>
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-05-3">3</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-20">4</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-03-21">5</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-05-6">6</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-05-7">7</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-05-8">8</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-05-9">9</time></li>
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-05-10">10</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-05-11">11</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-05-12">12</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-05-13">13</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-05-14">14</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-05-15">15</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-05-16">16</time></li>
+
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-05-10">17</time></li>
+
+			
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-05-18">18</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-05-19">19</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-05-20">20</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20	Inglês, 10:20-11:10	Inglês"><time datetime="2024-05-21">21</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-05-22">22</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-05-23">23</time></li>
+
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-05-24">24</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-05-25">25</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-05-26">26</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-05-20">27</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20 Inglês, 10:20-11:10 Inglês"><time datetime="2024-05-21">28</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-05-29">29</time></li>
+
+			<li data-aulas="EMENDA DE FERIADO :)"><time datetime="2024-05-30">30 - Emenda</time></li>
+
+
+			<li data-aulas="EMENDA DE FERIADO :)"><time datetime="2024-05-31">31  - Emenda</time></li>
+        </ul>
+    </div>
+</div>
+
+<div id="junho" style="display: none;">
+    <h1>JUNHO - 2024</h1>
+    <p>Provas, Atividades e Aulas do 1º Semestre</p>
+    <div class="mes">
+        <ul>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-1">1</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-2">2</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-06-3">3</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20 Inglês, 10:20-11:10 Inglês"><time datetime="2024-06-4">4</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-06-5">5</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-06-7">6</time></li>
+
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-06-8">7</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-8">8</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-9">9</time></li>
+
+			<li class="important" data-aulas="PROVA DE ADMINISTRAÇÃO GERAL, 07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-06-10">10 - Prova</time></li>
+
+			<li class="important" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20 Inglês, 10:20-11:10 Inglês"><time datetime="2024-06-11">11 - Prova</time></li>
+
+			<li class="important"  data-aulas="PROVA DE ALGORITMOS E LÓGICA DE PROGRAMAÇÃO, 09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-06-12">12 - Prova</time></li>
+
+			<li class="important" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-06-13">13 - Prova</time></li>
+
+
+			<li class="important"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-06-14">14 - Prova</time></li>
+
+			<li class="important" data-aulas="PROVA, FINAL DE SEMANA :)"><time datetime="2024-06-15">15 - Prova</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-16">16</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-06-17">17</time></li>
+
+			<li class="school" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20 Inglês, 10:20-11:10 Inglês"><time datetime="2024-06-18">18</time></li>
+
+			<li class="school"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-06-19">19</time></li>
+
+			<li class="school" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-06-20">20</time></li>
+
+
+			<li class="school"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-06-21">21</time></li>
+
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-22">22</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-23">23</time></li>
+
+			
+			<li class="important" data-aulas="24 - 07:40-08:30	Administração Geral, 08:30-09:20 Administração Geral, 09:30-10:20 Administração Geral, 10:20-11:10 Administração Geral, 11:20-12:10 Matemática Discreta, 12:10-13:00 Matemática Discreta"><time datetime="2024-06-24">24 - Recuperação</time></li>
+
+			<li class="important" data-aulas="07:40-08:30 Matemática Discreta, 08:30-09:20	Matemática Discreta, 09:30-10:20 Inglês, 10:20-11:10 Inglês"><time datetime="2024-06-25">25 - Recuperação</time></li>
+
+			<li class="important"  data-aulas="09:30-10:20 Algoritmos e Lógica de Programação, 10:20-11:10 Algoritmos e Lógica de Programação, 11:20-12:10 Algoritmos e Lógica de Programação, 12:10-13:00 Algoritmos e Lógica de Programação"><time datetime="2024-06-26">26 - Recuperação</time></li>
+
+			<li class="important" data-aulas="07:40-08:30	Arquitetura e Organização de Computadores, 08:30-09:20	Arquitetura e Organização de Computadores, 09:30-10:20	Arquitetura e Organização de Computadores, 10:20-11:10	Arquitetura e Organização de Computadores"><time datetime="2024-06-27">27 - Recuperação</time></li>
+
+
+			<li class="important"  data-aulas="07:40-08:30	Programação em Microinformática, 08:30-09:20 Programação em Microinformática, 09:30-10:20 Programação em Microinformática, 10:20-11:10 Programação em Microinformática, 11:20-12:10 Laboratório de Hardware, 12:10-13:00 Laboratório de Hardware"><time datetime="2024-06-28">28 - Recuperação</time></li>
+
+			<li class="important" data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-29">29 - Recuperação</time></li>
+			<li data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-30">30</time></li>
+
+        </ul>
+    </div>
+</div>
+
+<center>
+<button class="btnNotHome" id="before" ontouchstart="addHover(this)"> MÊS ANTERIOR </button>
+<button class="btnNotHome" id="next" ontouchstart="addHover(this)"> PRÓXIMO MÊS </button>
+</center>
+
+<li id="invisivel" data-aulas="FINAL DE SEMANA :)"><time datetime="2024-06-30">30</time></li>
+
+
+
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="calendario.js"></script>
+</body>
+</html>

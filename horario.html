@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HÓRARIOS </title>
+
+    <!--Css Linkado-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+JP:wght@600&family=Protest+Strike&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<!-- Botões 1 -->
+<center>
+<button class="btnNotHome" id="home" ontouchstart="addHover(this)"> HOME </button>
+<button class="btnNotHome" id="aulas" ontouchstart="addHover(this)"> AULAS </button>
+<button class="btnNotHome" id="calendario" ontouchstart="addHover(this)"> CALENDÁRIO </button>
+</center>
+
+<!-- Comandos -->
+
+<script>
+    function addHover(element) {
+        element.classList.add("hover");
+    }
+    
+    function removeHover(element) {
+        element.classList.remove("hover");
+    }
+</script>
+
+
+<!-- Contéudo -->
+
+<h1 class="title">HORÁRIOS</h1>
+
+
+<button class="btnHome" id="verMaisSegunda" onclick="toggleTableSegunda()">Segunda-Feira</button>
+<!--Segunda-Feira-->
+<div id="tabelaSegunda" style="display: none;">
+<table>
+
+<tr>
+<th> Dia</th>
+<th> Horário</th>
+<th> Aula</th>
+</tr>
+
+<tr>
+    <td>Segunda-Feira</td>
+    <td>07:40-08:30</td>
+    <td>Administração Geral</td>
+</tr>
+
+<tr> 
+    <td>Segunda-Feira</td>
+    <td>08:30-09:20</td>
+    <td>Administração Geral</td>
+</tr>
+
+<tr>
+    <td>Segunda-Feira</td>
+    <td>09:30-10:20</td>
+    <td>Administração Geral</td>
+</tr>
+
+<tr>
+    <td>Segunda-Feira</td>
+    <td>10:20-11:10</td>
+    <td>Administração Geral</td>
+</tr>
+
+<tr>
+    <td>Segunda-Feira</td>
+    <td>11:20-12:10</td>
+    <td>Matemática Discreta</td>
+</tr>
+
+<tr>
+    <td>Segunda-Feira</td>
+    <td>12:10-13:00</td>
+    <td>Matemática Discreta</td>
+</tr>
+
+</table>
+</div>
+
+<button class="btnHome" id="verMaisTerca" onclick="toggleTableTerca()">Terça-Feira</button>
+<!--Terça-Feira-->
+<div id="tabelaTerca" style="display: none;">
+<table>
+
+    <tr>
+    <th> Dia</th>
+    <th> Horário</th>
+    <th> Aula</th>
+    </tr>
+    
+    <tr>
+        <td>Terça-Feira</td>
+        <td>07:40-08:30</td>
+        <td>Matemática Discreta</td>
+    </tr>
+    
+    <tr> 
+        <td>Terça-Feira</td>
+        <td>08:30-09:20</td>
+        <td>Matemática Discreta</td>
+    </tr>
+    
+    <tr>
+        <td>Terça-Feira</td>
+        <td>09:30-10:20</td>
+        <td>Inglês</td>
+    </tr>
+    
+    <tr>
+        <td>Terça-Feira</td>
+        <td>10:20-11:10</td>
+        <td>Inglês</td>
+    </tr>
+   
+</table>
+</div>
+
+<button class="btnHome" id="verMaisQuarta" onclick="toggleTable()">Quarta-Feira</button>
+
+<!--Quarta-Feira-->
+<div id="tabelaQuarta" style="display: none;">
+    <table>
+        <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+            <th>Aula</th>
+        </tr>
+        <tr>
+            <td>Quarta-Feira</td>
+            <td>09:30-10:20</td>
+            <td>Algoritmo e Lógica</td>
+        </tr>
+        <tr>
+            <td>Quarta-Feira</td>
+            <td>10:20-11:10</td>
+            <td>Algoritmo e Lógica</td>
+        </tr>
+        <tr>
+            <td>Quarta-Feira</td>
+            <td>11:20-12:10</td>
+            <td>Algoritmo e Lógica</td>
+        </tr>
+        <tr>
+            <td>Quarta-Feira</td>
+            <td>12:10-13:00</td>
+            <td>Algoritmo e Lógica</td>
+        </tr>
+    </table>
+</div>
+
+<!--Quinta-Feira-->
+<button class="btnHome" id="verMaisQuarta" onclick="toggleTableQuinta()">Quinta-Feira</button>
+<div id="tabelaQuinta" style="display: none;">
+    <table>
+        <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+            <th>Aula</th>
+        </tr>
+        <tr>
+            <td>Quinta-Feira</td>
+            <td>07:40-08:30</td>
+            <td>Arquitetura de Computadores</td>
+        </tr>
+        <tr>
+            <td>Quinta-Feira</td>
+            <td>08:30-09:20</td>
+            <td>Arquitetura de Computadores</td>
+        </tr>
+        <tr>
+            <td>Quinta-Feira</td>
+            <td>09:30-10:20</td>
+            <td>Arquitetura de Computadores</td>
+        </tr>
+        <tr>
+            <td>Quinta-Feira</td>
+            <td>10:20-11:10</td>
+            <td>Arquitetura de Computadores</td>
+        </tr>
+    </table>
+</div>
+
+
+<!--Sexta-Feira-->
+<button class="btnHome" id="verMaisQuarta" onclick="toggleTableSexta()">Sexta-Feira</button>
+<div id="tabelaSexta" style="display: none;">
+    <table>
+        <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+            <th>Aula</th>
+        </tr>
+        <tr>
+            <td>Sexta-Feira</td>
+            <td>07:40-08:30</td>
+            <td>Programação em Microinformática</td>
+        </tr>
+        <tr>
+            <td>Sexta-Feira</td>
+            <td>08:30-09:20</td>
+            <td>Programação em Microinformática</td>
+        </tr>
+        <tr>
+            <td>Sexta-Feira</td>
+            <td>09:30-10:20</td>
+            <td>Programação em Microinformática</td>
+        </tr>
+        <tr>
+            <td>Sexta-Feira</td>
+            <td>10:20-11:10</td>
+            <td>Programação em Microinformática</td>
+        </tr>
+
+        <tr>
+            <td>Sexta-Feira</td>
+            <td>11:20-12:10</td>
+            <td>Laboratório de Hardware</td>
+        </tr>
+        <tr>
+            <td>Sexta-Feira</td>
+            <td>12:10-13:00</td>
+            <td>Laboratório de Hardware</td>
+        </tr>
+
+    </table>
+</div>
+
+
+    <!--Js Linkado-->
+<script src="horario.js"></script>
+
+</body>
+</html>

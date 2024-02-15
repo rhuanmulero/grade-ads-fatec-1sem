@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULAS</title>
+
+     <!--Css Linkado-->
+  <link rel="stylesheet" href="aulas.css">
+  <link rel="stylesheet" href="global.css">
+
+  <!--Google Fontes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+JP:wght@600&family=Protest+Strike&display=swap" rel="stylesheet">
+ 
+
+</head>
+<body>
+
+<!-- Botões 1 -->
+<center>
+    <button class="btnNotHome" id="home" ontouchstart="addHover(this)"> HOME </button>
+    <button class="btnNotHome" id="calendario" ontouchstart="addHover(this)"> CALENDÁRIO </button>
+    <button class="btnNotHome" id="horario" ontouchstart="addHover(this)"> HORÁRIO </button>
+</center>
+
+<h1>AULAS</h1>
+
+<div class="container">
+    <div class="disciplina" id="admin">
+        <img src="https://itec.net.br/projeto2018/wp-content/uploads/2022/06/administracao-administracao.jpg" alt="Administração Geral">
+        <p>ADMINISTRAÇÃO <br> GERAL</p>
+    </div>
+
+    <div class="disciplina" id="aoc">
+        <img src="https://alexide.github.io/conteudo/img/img1.png" alt="Arquitetura e Organização de Computadores">
+        <p>ARQUITETURA E ORGANIZAÇÃO <br> DE COMPUTADORES</p>
+    </div>
+
+    <div class="disciplina" id="alp">
+        <img src="https://th.bing.com/th/id/OIP.NKl3MEIvkX53IJ71WEUMRwHaDQ?rs=1&pid=ImgDetMain" alt="Algoritmos e Lógica de Programação">
+        <p>ALGORITMOS E LÓGICAS <br> DE PROGRAMAÇÃO</p>
+    </div>
+
+    <div class="disciplina" id="ldh">
+        <img src="https://th.bing.com/th/id/R.c7aaccccf68d14cc2f33f7fcce805dd5?rik=neauVFB0dcjuug&pid=ImgRaw&r=0" alt="Laboratório de Hardware">
+        <p>LABORATÓRIO <br> DE HARDWARE</p>
+    </div>
+
+    <div class="disciplina" id="pem">
+        <img src="https://th.bing.com/th/id/R.6a5521272771b2c9a712ca13f4690f3e?rik=YTtNqsIO6lKNqA&pid=ImgRaw&r=0" alt="Laboratório de Hardware">
+        <p>PROGRAMAÇÃO <br> EM MICROINFORMÁTICA</p>
+    </div>
+
+    <div class="disciplina" id="ing">
+        <img src="https://th.bing.com/th/id/OIP.MYWofQr7nDIbUM2SwrKpmQHaD5?rs=1&pid=ImgDetMain" alt="Inglês">
+        <p>INGLÊS</p>
+    </div>
+
+    <div class="disciplina" id="mdd">
+        <img src="https://th.bing.com/th/id/R.b06173cb3ff561f5c665a1e9dee496f8?rik=Kp5TTDZpVcFafw&pid=ImgRaw&r=0" alt="Matemática Discreta">
+        <p>MATEMÁTICA DISCRETA</p>
+    </div>
+
+    <div class="disciplina" id="invisivel">
+        <img src="https://alexide.github.io/conteudo/img/img1.png" alt="Matemática Discreta">
+        <p>MATEMÁTICA <br> DISCRETA</p>
+    </div>
+
+
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-text"></div>
+    </div>
+</div>
+
+    <script src="aulas.js"></script>
+    
+</body>
+</html>

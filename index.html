@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <!--Css Linkado-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+
+
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+JP:wght@600&family=Protest+Strike&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!--Botões-->
+<button class="btnHome" id="horario" ontouchstart="addHover(this)"> HÓRARIO </button>
+<button class="btnHome" id="aulas" ontouchstart="addHover(this)"> AULAS </button>
+<button class="btnHome" id="calendario" ontouchstart="addHover(this)"> CALENDÁRIO </button>
+
+<!--Comandos-->
+
+<script>
+    function addHover(element) {
+        element.classList.add("hover");
+    }
+    
+    function removeHover(element) {
+        element.classList.remove("hover");
+    }
+    </script>
+
+<script>
+    document.getElementById("horario").addEventListener("click", function() {
+        window.location.href = "horario.html";
+    });
+</script>
+
+<script>
+    document.getElementById("aulas").addEventListener("click", function() {
+        window.location.href = "aulas.html";
+    });
+</script>
+
+<script>
+    document.getElementById("calendario").addEventListener("click", function() {
+        window.location.href = "calendario.html";
+    });
+</script>
+
+</body>
+</html>

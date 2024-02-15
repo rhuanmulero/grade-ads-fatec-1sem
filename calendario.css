@@ -1,0 +1,260 @@
+.btnNotHome {
+
+
+    font-size: 10px;
+    font-family: Josefin Sans;
+    
+    
+    color: white;
+    background-color: black;
+    
+    border-style:double;
+    border-radius: 5px;
+
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    width: 100px;
+    align-items: center;
+    transition: 0.3s;
+
+}
+
+.hover{
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); 
+}
+
+.btnNotHome:hover, .btnNotHome:active {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); 
+}
+
+h1 {
+
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+    transition: text-shadow 0.3s ease; 
+    text-align: center;
+    font-size: 30px;
+    font-family: Josefin Sans;
+    color: white;
+
+
+}
+
+p {
+
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+    transition: text-shadow 0.3s ease; 
+    text-align: center;
+    font-size: 15px;
+    font-family: Josefin Sans;
+    color: white;
+
+
+}
+
+
+
+.mes {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto; 
+}
+
+ul {
+
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+flex-wrap: wrap;
+list-style: none;
+
+
+}
+
+li {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    flex-flow: column;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Josefin Sans;
+}
+
+
+li:hover, li:active {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+}
+
+.important:hover, .important:active {
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.school:hover, .school:active {
+    box-shadow: 0 0 10px 5px rgba(0, 81, 255, 0.5);
+    transition: 0.3s;
+}
+
+
+/* Estilos para o modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(7, 7, 7, 0.623); /* Fundo preto transparente */
+
+  }
+  
+  .modal-content {
+    background-color: #000000;
+    margin: auto; /* Centralizar horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%; 
+    max-width: 600px; /* Largura máxima do modal */
+    position: relative; /* Para centralizar verticalmente */
+    top: 50%; /* Mover para o centro vertical */
+    transform: translateY(-50%); /* Centralizar verticalmente */
+    text-align: center; /* Centralizar texto */
+    box-shadow: 0 0 10px 5px rgba(255, 196, 0, 0.5);
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute; /* Posição absoluta em relação ao modal */
+    top: 10px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+#invisivel {
+
+        display: flex;
+        width: 250px;
+        height: 100px;
+        margin: auto;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        flex-flow: column;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(255, 255, 255, 0);
+
+}
+
+#invisivel:hover, #invisivel:active {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0);
+    transition: 0.3s;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    
+    body {
+
+        justify-content: center;
+
+    }
+
+    ul{
+    grid-template-columns: 1fr;
+    }
+
+    li {
+        width: 275px;
+        height: 100px;
+        font-size: 80%;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    
+    body {
+
+        justify-content: center;
+
+    }
+
+    ul{
+    grid-template-columns: 1fr 1fr;
+    }
+
+    li {
+
+        width: 200px;
+        height: 100px;
+
+    }
+
+
+}
+
+@media screen and (min-width: 750px) {
+    
+    body {
+
+        justify-content: center;
+
+    }
+
+    ul{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    li {
+        width: 80px;
+        height: 40px;
+        font-size: 80%;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    body {
+
+        justify-content: center;
+
+    }
+
+    ul{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    li {
+        width: 150px;
+        height: 100px;
+        font-size: 80%;
+    }
+
+
+}
+
+

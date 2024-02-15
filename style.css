@@ -1,0 +1,110 @@
+/* INDEX.HTML */
+.btnHome {
+
+font-size: 40px;
+font-family: Josefin Sans;
+
+
+color: white;
+background-color: black;
+
+border-style:double;
+border-radius: 5px;
+display:flex;
+flex-direction: column;
+
+
+margin: auto;
+margin-top: 40px;
+padding-top: 10px;
+
+width: 300px;
+align-items: center;
+transition: 0.3s;
+
+}
+
+.hover{
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); 
+}
+
+.btnHome:hover, .btnHome:active {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); 
+}
+
+#horario {
+
+margin-top: 170px;
+text-align: center;
+}
+
+/* HORARIO.HTML */
+
+.btnNotHome {
+
+
+    font-size: 10px;
+    font-family: Josefin Sans;
+    
+    
+    color: white;
+    background-color: black;
+    
+    border-style:double;
+    border-radius: 5px;
+
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    width: 100px;
+    align-items: center;
+    transition: 0.3s;
+
+}
+
+.hover{
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); 
+}
+
+.btnNotHome:hover, .btnNotHome:active {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); 
+}
+
+.title {
+
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+    transition: text-shadow 0.3s ease; 
+    text-align: center;
+    font-size: 30px;
+    font-family: Josefin Sans;
+    color: white;
+
+}
+
+
+
+table, th, td {
+color: white;
+margin: auto;
+background-color: black;
+font-family: Josefin Sans;
+text-align: center;
+border-collapse: collapse;
+border-color: white;
+border: 1px solid;
+padding: 10px;
+margin-bottom: 20px;
+justify-content: center;
+width: 320px;
+
+}
+
+.tabela-transition {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.tabela-visible {
+    opacity: 1; 
+}
