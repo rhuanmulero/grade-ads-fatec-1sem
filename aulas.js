@@ -37,7 +37,7 @@ disciplinas.forEach(disciplina => {
                 break;
 
             case 'alp':
-                modalContent = 'Algoritmos e Lógica de Programação - 4hs/aula\n\nHorário: Quinta: 9:30-13:00\n\nAlgoritmos e Lógica de Programação são fundamentais para a ciência da computação e para o desenvolvimento de software. Eles se concentram em conceitos básicos e técnicas para resolver problemas de forma eficiente e sistemática';
+                modalContent = 'Algoritmos e Lógica de Programação - 4hs/aula\n\nHorário: Quarta: 9:30-13:00\n\nAlgoritmos e Lógica de Programação são fundamentais para a ciência da computação e para o desenvolvimento de software. Eles se concentram em conceitos básicos e técnicas para resolver problemas de forma eficiente e sistemática';
                     break;
 
             case 'ldh':
