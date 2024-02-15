@@ -37,7 +37,7 @@ disciplinas.forEach(disciplina => {
                 break;
 
             case 'alp':
-                modalContent = 'Arquitetura e Organização de Computadores - 4hs/aula\n\nHorário: Quinta: 7:40-11:10\n\nArquitetura e Organização de Computadores é uma área da ciência da computação que estuda a estrutura interna dos sistemas computacionais, incluindo hardware e software, bem como a interação entre eles. Esta disciplina é crucial para entender como os computadores funcionam e como são projetados.';
+                modalContent = 'Algoritmos e Lógica de Programação - 4hs/aula\n\nHorário: Quinta: 9:30-13:00\n\nAlgoritmos e Lógica de Programação são fundamentais para a ciência da computação e para o desenvolvimento de software. Eles se concentram em conceitos básicos e técnicas para resolver problemas de forma eficiente e sistemática';
                     break;
 
             case 'ldh':
@@ -52,7 +52,7 @@ disciplinas.forEach(disciplina => {
                         modalContent = 'Inglês - 2hs/aula\n\nHorário: Terça: 9:30-11:10\n\nA disciplina de inglês é uma parte fundamental do currículo em muitos países ao redor do mundo. Ela se concentra no estudo da língua inglesa em suas diversas formas, incluindo a gramática, vocabulário, pronúncia, escrita, leitura, e compreensão auditiva. Aqui estão alguns dos principais aspectos dessa matéria';
                         break;
 
-            case 'ing':
+            case 'mdd':
                     modalContent = 'Matemática Discreta - 4hs/aula\n\nHorário: Segunda: 11:20-13:00/Terça: 7:40-11:10\n\nMatemática Discreta é um ramo da matemática que lida com estruturas e conceitos que são discretos, ou seja, que possuem uma contagem finita ou enumerável de elementos. Ao contrário da matemática contínua, que trata de conceitos como números reais e cálculo diferencial e integral, a matemática discreta se concentra em objetos separados e distintos. Aqui está uma visão geral dos principais tópicos em Matemática Discreta';
                         break;
           
